@@ -1,0 +1,52 @@
+:root{
+    --primary-color:#242038;
+    --secondary-color: #725AC1;
+    --third-bg-color: #8D86C9;
+    --green-color: #CAC4CE;
+    --red-color:#F7ECE1;
+}
+
+html{
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+h1,h2,h3,h4,h5, p, label{
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+.title-page{
+    color: var(--primary-color);
+}
+
+.app{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    min-height: 95vh;
+}
+
+.icon {
+    fill: black;
+    width: 12px;
+    height: 12px;
+}
+
+.menu{
+    background-color: var(--primary-color);
+}
+
+.notes-container{
+    border: 1px solid var(--primary-color);
+}
+
+.notes-edit-container{
+    background-color: #111018;
+}
+
+.note{
+    background-color: var(--primary-color);
+}

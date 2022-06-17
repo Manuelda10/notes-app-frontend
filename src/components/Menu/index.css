@@ -1,0 +1,44 @@
+.menu{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    border-radius: 5px;
+}
+
+.menu-controllers{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.menu-buttons button{
+    margin-right: 0.5rem;
+}
+
+.menu-btn:hover .icon-archive{
+    fill: white;  
+}
+
+.archive-btn:hover{
+    background-color: #797323;
+    color: white;
+}
+
+.menu-btn:hover .icon-add {
+    fill: white;
+}
+
+.add-btn:hover{
+    background-color: #2A7923;
+    color: white;
+}
+
+select {
+    font-size: 15px;
+    padding: 3px;
+}
+

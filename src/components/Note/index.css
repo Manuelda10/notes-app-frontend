@@ -1,0 +1,69 @@
+button{
+    border: none;
+    font-size: 15px;
+    padding: 4px;
+    padding-left: 6px;
+    padding-right: 8px;
+}
+
+button:hover{
+    background-color: yellow;
+    transition: 0.3s;
+}
+
+button:hover .icon{
+    fill: red;
+    transition: 0.3s;
+}
+
+.note{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+}
+
+.note-content{
+    margin-right: 1rem;
+}
+
+.note-content{
+    line-height: 12px;
+    padding-left: 10px;
+}
+
+.note-buttons{
+    display: flex;
+    align-items: flex-end;
+}
+
+.icon-btn{
+    width: 25px;
+    height: 25px;
+    fill: white;
+}
+
+.note-btn{
+    background-color: transparent;
+    padding: 7px;
+    margin-left: 5px;
+}
+
+.note-btn:hover {
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+
+.note-btn:hover .icon-archive{
+    fill: #D6A744;
+}
+
+.note-btn:hover .icon-edit{
+    fill: #61D644;
+}
+
+.note-btn:hover .icon-delete{
+    fill: red;
+}
+    

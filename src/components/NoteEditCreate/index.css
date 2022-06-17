@@ -1,0 +1,41 @@
+.notes-edit-container{
+    width: 25rem;
+    margin: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 5px;
+}
+
+.notes-edit-container h1{
+    padding-top: 1rem;
+}
+
+.notes-edit-buttons{
+    margin-top: 0.5rem;
+    width: 99%;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.notes-edit-buttons button{
+    margin-left: 0.5rem;
+}
+
+label{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.notes-edit-container input, textarea{
+    width: 98%;
+    font-size: 15px;
+   
+}
+
+textarea{
+    resize: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+            'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+            sans-serif;
+}
