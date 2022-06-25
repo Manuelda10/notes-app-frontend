@@ -1,13 +1,20 @@
 import React from 'react'
 import Note from '../Note/Note'
+import notesImg from '../../assets/notes-for-container.png'
 import './index.css'
 
-const NotesContainer = ({notes, handleDeleteNote, handleUpdateNote, handleNotes}) => {
+const NotesContainer = ({ notes, handleDeleteNote, handleUpdateNote, handleNotes }) => {
+    
+    console.log(notes);
+
     return (
         <div className='notes-container'>
             {
-                !notes
-                    ? <h1>Cargando</h1>
+                notes.length === 0
+                    ? <img src={notesImg} alt='Notes' style={{
+                            width: "20rem",
+                            marginLeft: "calc(50% - 10rem)"
+                        }} />
                     :
                     notes.map(note => {
                         return (

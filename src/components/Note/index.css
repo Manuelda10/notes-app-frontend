@@ -54,6 +54,10 @@ button:hover .icon{
     transition: 0.3s;
 }
 
+.icon-btn{
+    transition: 0.3s;
+}
+
 
 .note-btn:hover .icon-archive{
     fill: #D6A744;

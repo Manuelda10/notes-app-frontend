@@ -20,6 +20,12 @@
 
 .notes-edit-buttons button{
     margin-left: 0.5rem;
+    transition: 0.2s;
+}
+
+.notes-edit-buttons button:hover {
+    background-color: #725AC1;
+    color: white;
 }
 
 label{

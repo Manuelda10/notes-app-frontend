@@ -50,7 +50,7 @@ function App() {
 
   return (
     <div className='app'>
-      <h1 className='title-page'>Notes</h1>
+      <h1 className='title-page'>Notes ✏️</h1>
       <Menu handleCreateNote={handleCreateNote}
         handleNotes={() => handleNotes()}
         handleNotesByCategory={handleNotesByCategory}

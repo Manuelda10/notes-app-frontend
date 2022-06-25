@@ -7,7 +7,7 @@ import { ReactComponent as ArchiveIcon } from '../../assets/archive.svg'
 import { ReactComponent as DeleteIcon } from '../../assets/delete.svg'
 import { ReactComponent as ActiveIcon } from '../../assets/active.svg'
 
-
+import '../../App.css'
 import './index.css'
 
 const Note = ({ id, title, content, date, active, handleDeleteNote, handleUpdateNote, handleNotes }) => {
@@ -43,11 +43,11 @@ const Note = ({ id, title, content, date, active, handleDeleteNote, handleUpdate
                 <button className='note-btn' onClick={() => handleUpdateNote(id, { active: !active })}> 
                 {
                     active === true
-                            ? <ArchiveIcon className='icon icon-btn icon-archive' ></ArchiveIcon>
-                            : <ActiveIcon className='icon icon-btn icon-archive' ></ActiveIcon>
+                            ? <ArchiveIcon className='icon-btn icon-archive' ></ArchiveIcon>
+                            : <ActiveIcon className='icon-btn icon-archive' ></ActiveIcon>
                 } </button>
-                <button className='note-btn' onClick={handleOpenModal}><EditIcon className='icon icon-btn icon-edit'></EditIcon></button>
-                <button className='note-btn' onClick={handleDeleteNote} ><DeleteIcon className='icon icon-btn icon-delete'></DeleteIcon></button>
+                <button className='note-btn' onClick={handleOpenModal}><EditIcon className='icon-btn icon-edit'></EditIcon></button>
+                <button className='note-btn' onClick={handleDeleteNote} ><DeleteIcon className='icon-btn icon-delete'></DeleteIcon></button>
             </div>
 
             {showModal && <Modal><NoteEdit
